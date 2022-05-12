@@ -1,15 +1,23 @@
 import Header from "../header/Header"
 import Footer from "../footer/Footer"
 import Tours from "../tours/Tours"
-import db from "/home/yusra2001/Travel-Destination/travel-destination/src/data/db.json"
 
-function Home (){
+function Home(){
     return(
-        <div>
+        <>
         <Header/>
-        <Tours data ={db}/>
+        {
+            countries.map(element=>{
+                return(
+                    <Tours
+                    countryName = {element.name}
+                    image = {element.image}
+                    />
+                )
+            })
+        }
         <Footer/>
-        </div> 
+        </>
     )
     
 }
