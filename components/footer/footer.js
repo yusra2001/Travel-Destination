@@ -1,13 +1,10 @@
+import './Footer.css';
 function Footer(){
     return(
         <>
-        <footer>
-        <p id="ah">&copy;YUSRAHADIDI</p>
-        <p><a href="https://www.facebook.com/">Facebook</a></p>
-        </footer>
+        <a href="https://www.facebook.com/yousra.hadidi.14/">Facebook Profile</a>
+        <p>Author By: Yusra Alhadidi</p>
         </>
-        
-        
     )
 }
 export default Footer;
