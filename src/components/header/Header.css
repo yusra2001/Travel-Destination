@@ -1,0 +1,11 @@
+.header {
+    background-color: #d7ec1b;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #F5F2E7;
+}
+
+h1 {
+    margin-left: 15px;
+}
