@@ -36,14 +36,13 @@
 ////////////////////////////////////////////
 
 import { Link } from "react-router-dom";
-
-
+import './Tour.css';
+import { Card , Button} from 'react-bootstrap';
 
 function Tour(props) {
     let item = props.objectFromTours;
     // console.log(item , "Item");
 
-    // console.log(props , "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk");
 
     return (
 
